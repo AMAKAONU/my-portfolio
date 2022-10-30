@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(241, 224, 71);
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 40px;
+}
+.nav:hover{
+    color: #8b80bb;
+    transition: .4s;
+}
+.logo{
+    width: 25%;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.contactnav{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 94px;
+}
+.btn{
+    border: 2px solid grey;
+    color: black ;
+    background: rgb(91, 196, 223);
+    padding: 10px 20px;
+    margin-left: 64px;
+    margin-top: 40px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-family: Arial;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background:#8b80bb;
+    text-decoration: none;
+}
+.Pj{
+    color: rgb(51, 51, 141);
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.span{
+    color: black;
+}
+.span1{
+    color: rgb(51, 51, 141);
+}
+.details{ 
+    margin-top: 15%;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.communication{
+    margin-top: auto;
+    margin-left: auto;
+}
+.details h1{
+    font-size: 40px;
+    margin-bottom: 20px;;
+}
+.details h4{
+    color: crimson;
+    margin-top: 40px;
+}
+.details a{
+    background: rgb(49, 49, 170);
+    padding: 10px 20px;
+    font-weight:bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 20px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translateX(-50);
+    transition:bottom 1s left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .angela{
+    left: 45%;
+}
+.media-icons{
+    margin: auto;
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 20px;
+    transition: 0.3s;
+    transition-property: trasform;
+    margin-left: 10px;
+}
+.media-icons a:no(:last-child){
+    margin-right: 80px;
+}
+.media-icons a:hover{
+    transform:scale(1.5);
+}
